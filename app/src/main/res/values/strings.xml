@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">savy</string>
+    <string name="login" ><br><b>Login</b> if you already have an account </br></string>
+    <string name="register" ><br><b>Register</b>  to get started with the app </br></string>
+
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="login_title">LOGIN to app</string>
+    <string name="login_sub_title">
+        <font color="#00C9B8"><b>Login</b></font>
+        if you already have an account
+    </string>
+
+    <string name="updatedDate">Update 4/30/2023</string>
+    <string name="Arabic" translatable="false">العربية</string>
+    <string name="French" translatable="false">Français</string>
+    <string name="Eng" translatable="false">English</string>
+    <string name="email">Exp: email@example.com</string>
+    <string name="check_email">Check your email!</string>
+    <string name="spin_model_title">Model</string>
+    <string name="spin_brand_title">Brand</string>
+    <string name="changePwd">Change Password</string>
+    <string name="homepub">What\'s New?</string>
+    <string name="promotions">Promotions</string>
+    <string name="spin_name_title">Name</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="username_profile">azizataboubii</string>
+    <string name="username">username</string>
+    <string name="numTel">phone number</string>
+    <string name="your_products">Your Products</string>
+    <string name="spin_gouver_title">Gouvernorat</string>
+    <string name="next">Next</string>
+    <string name="password">password</string>
+    <string name="confirmPassword">Confirm password</string>
+    <string name="confirm">Confirm</string>
+    <string name="forgetPwd_message">Forgot your password?  Enter your email and will send you a verification code in order to restore your account.</string>
+    <string name="otp">An email has been sent. Please enter the four- digit code that you received in order to change your password.</string>
+    <string name="logOut">Logout</string>
+    <string name="TermsAndCondition">Terms and Conditions</string>
+    <string name="languages">Languages</string>
+    <string name="darkMode">Dark Mode</string>
+    <string name="general">General</string>
+    <string name="TC_1">Welcome to Savy, an app that allows its users to search for different types of electronics and find the places with the best prices (lowest or best sellers) by comparing them. It also includes a sales area so that users can put their electronic devices up for sale. In order to use the app, you will need to create an account. By creating an account and using the app, you agree to be bound by these terms and conditions.</string>
+    <string name="TC_2"><b>Data Collection </b>Savy collects personal information from you in order to provide you with the best possible experience. This includes information such as your name, email address, and phone number in order to make the process easier, as well as any other information you choose to provide. Savy does not display any advertising to you. </string>
+    <string name="TC_3"><b>Device Access</b>\n Savy requires access to your device s camera in order to function properly. By using the app, you grant Savy permission to access your device s camera.</string>
+    <string name="TC_4"><b>Third-Party Integrations</b>\n Savy uses a Node.js server to store and process data. By using the app, you agree to the collection, use, and sharing of your data as described in these terms and conditions.</string>
+    <string name="TC_5"><b>Changes to These Terms</b>\n Savy reserves the right to update these terms and conditions at any time. If we make any changes, we will post the revised terms and conditions on this page and will indicate the effective date of the revised terms and conditions. We encourage you to review these terms and conditions periodically to stay informed about our practices. </string>
+    <string name="TC_6"><b>Contact Us</b>If you have any questions about these terms and conditions, please contact us at savysy22@gmail.com</string>
+    <string name="productname">productidk</string>
+    <string name="price">priceidk</string>
+    <string name="yourpdt">Your Products</string>
+    <string name="version">Version</string>
+    <string name="versionNum">1.0.1</string>
+    <string-array name="models">
+        <item> tablette</item>
+        <item> camera</item>
+        <item> console</item>
+        <item> desktop</item>
+        <item> mouse</item>
+        <item> laptop</item>
+        <item> mobile</item>
+        <item> keyboard</item>
+        <item> smartwatch</item>
+        <item> tv</item>
+        <item> fridge</item>
+        <item> other</item>
+    </string-array>
+    <string-array name="states">
+        <item> Nouveau</item>
+        <item> Occasion</item>
+        <item> Etat neuf</item>
+        <item> Jamais servi</item>
+    </string-array>
+
+    <string-array name="brands">
+        <item> Samsung</item>
+        <item> Apple</item>
+        <item> LG</item>
+        <item> Asus</item>
+        <item> MSI</item>
+        <item> Shark</item>
+        <item> Huawei</item>
+        <item> Xioami</item>
+        <item> Toshiba</item>
+        <item> Dell</item>
+        <item> NewStar</item>
+        <item> Other</item>
+    </string-array>
+    <string-array name="years">
+        <item>select</item>
+        <item>2022</item>
+        <item>2021</item>
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+    </string-array>
+
+    <string-array name="gouver">
+        <item> select</item>
+        <item> Ariana</item>
+        <item> Beja</item>
+        <item> Ben Arous</item>
+        <item> Bizerte</item>
+        <item> Gabes</item>
+        <item> Gafsa</item>
+        <item> Jendouba</item>
+        <item> Kairouan</item>
+        <item> Kasserine</item>
+        <item> Kebili</item>
+        <item> Kef</item>
+        <item> Mahdia</item>
+        <item> Manouba</item>
+        <item> Medenine</item>
+        <item> Monastir</item>
+        <item> Nabeul</item>
+        <item> Sfax</item>
+        <item> Sidi Bouzid</item>
+        <item> Siliana</item>
+        <item> Sousse</item>
+        <item> Tataouine</item>
+        <item> Tozeur</item>
+        <item> Tunis</item>
+        <item> Zaghouan</item>
+    </string-array>
+</resources>

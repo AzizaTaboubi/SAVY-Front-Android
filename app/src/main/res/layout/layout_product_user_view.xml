@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    app:cardCornerRadius="15dp"
+    android:layout_marginBottom="5dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageProduit"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:src="@drawable/savy_logo"
+        android:layout_marginStart="5dp"
+        android:layout_marginVertical="5dp"/>
+
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="50dp"
+        android:layout_toEndOf="@id/imageProduit"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="@string/productname" />
+
+    <TextView
+        android:id="@+id/productPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="@string/price"
+        android:layout_toEndOf="@id/imageProduit"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="50dp"/>
+
+
+    <ImageButton
+        android:id="@+id/delBtn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@id/editBtn"
+        android:background="@color/white"
+        android:outlineSpotShadowColor="@color/green_main"
+        app:srcCompat="@drawable/delete" />
+
+    <ImageButton
+        android:id="@+id/editBtn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="10dp"
+        android:layout_toStartOf="@id/delBtn"
+        android:layout_toEndOf="@id/imageProduit"
+        android:background="@color/white"
+        android:outlineSpotShadowColor="@color/green_main"
+        app:srcCompat="@drawable/edit" />
+
+</androidx.cardview.widget.CardView>
